@@ -25,10 +25,12 @@ body {
     align-items: center;
 }
 
-#countDownText {
+#countDownText, a {
     font-size: 25;
     font-weight: normal;
+    color: #bd93f9;
 }
+
 #countDownNums {
     font-size: 60;
     font-weight: 500;
