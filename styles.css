@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: #282a36;
+}
+
+#countDownOut {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #bd93f9;
+}
+
+#countDownIn {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+#countDownText {
+    font-size: 25;
+    font-weight: normal;
+}
+#countDownNums {
+    font-size: 60;
+    font-weight: 500;
+}
